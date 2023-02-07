@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Damion&display=swap");
+* {
+    box-sizing: border-box !important;
+}
+body {
+    background-color: #044554;
+    font-family: verdana, geneva, sans-serif;
+}
+#header {
+    background-color: #212121;
+}
+#header .navbar {
+    background-color: #212121 !important;
+}
+.navbar-dark .navbar-brand {
+    color: #81c3f9;
+    font-family: damion, cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+.nav-item {
+    margin: 0 10px;
+}
+.game-box {
+    border-width: 10px !important;
+    border-color: #212121 !important;
+    height: 430px !important;
+    background-color: #1e2d34;
+    opacity: 0.8;
+}
+.page-content {
+    color: #80c5ff;
+    padding: 50px;
+    font-family: sans-serif;
+    height: auto !important;
+}
+.page-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.page-content p {
+    font-size: 16px;
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.game-slider-price {
+    border-right: 3px solid #929191;
+    flex-basis: 115px;
+}
+.game-slider-joined {
+    flex-basis: 115px;
+}
+.game-slider-button {
+    background-color: #81c3f9 !important;
+    color: #212121 !important;
+}
+.game-slider-image {
+    width: 100%;
+    height: 255px;
+}
+.game-slider-ads {
+    width: 100%;
+    height: 324px;
+}
+.game-slider-details {
+    font-size: 12px;
+}
+.auth-section {
+    background: #1e2d34 !important;
+    color: #80c5ff !important;
+}
+.text-light-blue {
+    color: #212121 !important;
+}
+.nav .active,.nav .text-light-blue:hover {
+    color: #687f92 !important;
+}
+.pagination .page-link {
+    background: #fff;
+    margin-right: 5px;
+}
+/*.account-section {
+    background: #ecf0f1 !important;
+    color: #212121 !important;
+}*/
+.account-section-sidebar {
+    color: hsla(0,0%,100%,.5) !important;
+}
+.account-section-sidebar.active,.account-section-sidebar:hover {
+    color: hsla(0,0%,100%,.75) !important;
+}
+.footer-wiget {
+   position: fixed;
+   right: 0;
+   bottom: 5px;
+   width: 10%;
+   /*background-color: red;*/
+   color: white;
+   text-align: center;
+    z-index: 999;
+}
+li.list-group-item, .page-link {
+    color: #2d2b2b !important;
+}
+.page-item.active .page-link {
+    color:#fff !important;
+}

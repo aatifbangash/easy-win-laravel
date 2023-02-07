@@ -1,0 +1,112 @@
+.my-custom-bg {
+  background-color: #ecf0f1;
+  padding: 0px;
+}
+.pagination {
+  overflow: hidden;
+  width: 73%;
+}
+.page-item {
+  padding: 1px;
+}
+.page-link {
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  padding: 0px;
+  font-size: 12px;
+  padding-top: 4px;
+  border-radius: 5px;
+  background:#87ceeb;
+  cursor:pointer;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /*border: 1px solid black;*/
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+.winner-box {
+  height: 40px;
+  border: 1px solid;
+  padding-top: 5px;
+}
+.page-item.winner-number .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #ec928f;
+  border-color: transparent;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #000;
+    border-color: transparent;
+}
+#drawing-area{
+  overflow:hidden;
+}
+
+#draw-game{
+	width: 100%;
+	border:1px dashed #000;
+}
+#draw-game2{
+        margin-top:20px;
+	width: 100%;
+	border:1px dashed #000;
+}
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+    width: 100%;
+    margin-bottom: 25px;
+    width:100%;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #87ceeb;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #48b4e0;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.btn-danger{
+  margin-right:10px;
+}
+
