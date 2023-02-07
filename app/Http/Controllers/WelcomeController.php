@@ -16,8 +16,8 @@ class WelcomeController extends Controller
 
     public $paypalEnv       = 'production'; // 'sandbox' Or 'production'
     public $paypalURL       = 'https://api.paypal.com/v1/'; // 'https://api.sandbox.paypal.com/v1/';
-    public $paypalClientID  = 'AYsmowWwavd1bkfzrOKseR6rwFk5toOvsKBMj_ksnf0p8YmY0uHxbfqfqfsK-t-KfMyTiAAXixHbR_qP'; // sendbox = 'AYlWdjkATDp5DYe2cQotUmGRRqg-dOslH-WF0XOaZDcg7hOiBcm6hVe0Ci4_xkBXUfS7ttL7BFjEXbO0';
-    private $paypalSecret   = 'EEnJgCXDZktTsz1-cFCpDmZyzVKwnb0IaNONyR9rFE2TKQVD8kj6PGFHVfh78Wny5E-NeRqQmm3_d3P1'; // sendbox = 'EEN5ftCXxOgZr7pZgWJhxNNBDZPSYWWxsIT0ERqNR2R7fhjge48wX7jZGfzAzZsLpGV5Ej2a_FRKNHBj';
+    public $paypalClientID  = 'XXXXXXXX-t-KfMyTiAAXixHbR_qP'; // sendbox = 'AYlWdjkATDp5DYe2cQotUmGRRqg-dOslH-WF0XOaZDcg7hOiBcm6hVe0Ci4_xkBXUfS7ttL7BFjEXbO0';
+    private $paypalSecret   = 'XXXXXXX-NeRqQmm3_d3P1'; // sendbox = 'EEN5ftCXxOgZr7pZgWJhxNNBDZPSYWWxsIT0ERqNR2R7fhjge48wX7jZGfzAzZsLpGV5Ej2a_FRKNHBj';
     /**
      * Create a new controller instance.
      *

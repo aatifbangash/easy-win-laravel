@@ -254,8 +254,8 @@
                                 // Configure environment
                                 env: 'production', // 'production' or 'sandbox'
                                 client: {
-                                    sandbox: 'AYsmowWwavd1bkfzrOKseR6rwFk5toOvsKBMj_ksnf0p8YmY0uHxbfqfqfsK-t-KfMyTiAAXixHbR_qP', // sendbox = 'AYlWdjkATDp5DYe2cQotUmGRRqg-dOslH-WF0XOaZDcg7hOiBcm6hVe0Ci4_xkBXUfS7ttL7BFjEXbO0',
-                                    production: 'AYsmowWwavd1bkfzrOKseR6rwFk5toOvsKBMj_ksnf0p8YmY0uHxbfqfqfsK-t-KfMyTiAAXixHbR_qP' // sendbox = 'AYlWdjkATDp5DYe2cQotUmGRRqg-dOslH-WF0XOaZDcg7hOiBcm6hVe0Ci4_xkBXUfS7ttL7BFjEXbO0'
+                                    sandbox: 'XXXXX-t-KfMyTiAAXixHbR_qP', // sendbox = 'AYlWdjkATDp5DYe2cQotUmGRRqg-dOslH-WF0XOaZDcg7hOiBcm6hVe0Ci4_xkBXUfS7ttL7BFjEXbO0',
+                                    production: 'XXXXXXXXX-t-KfMyTiAAXixHbR_qP' // sendbox = 'AYlWdjkATDp5DYe2cQotUmGRRqg-dOslH-WF0XOaZDcg7hOiBcm6hVe0Ci4_xkBXUfS7ttL7BFjEXbO0'
                                 },
                                 // Customize button (optional)
                                 locale: 'en_US',
